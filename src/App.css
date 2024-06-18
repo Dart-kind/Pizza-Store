@@ -1,0 +1,6 @@
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto; /* This centers the container horizontally */
+    display: flex;
+    flex-direction: column;
+}

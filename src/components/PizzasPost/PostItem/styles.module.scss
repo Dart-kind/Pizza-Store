@@ -1,0 +1,103 @@
+
+
+.pizzaBlockWrapper {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 100px;
+  width: 30%;
+}
+
+.pizzaBlockImage {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -70px;
+}
+
+.pizzaBlockTitle {
+  font-size: 22px;
+  margin: 15px 0 10px;
+  color: #333;
+  height: 50px;
+}
+
+.pizzaBlockDescription {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.pizzaBlockSelector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.pizzaBlockSelector ul {
+  list-style: none;
+  display: flex;
+}
+
+.pizzaBlockSelector ul li {
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  height: 60px;
+  width: 70px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.pizzaBlockSelector ul li.active {
+  border-color: #DA1315;
+  background-color: #DA1315;
+  color: white;
+}
+
+.pizzaBlockSelector ul li:hover:not(.active) {
+  border-color: #ccc;
+}
+
+.pizzaBlockBottom {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonAdd {
+  background-color: #DA1315;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.buttonAdd:hover {
+  background-color: #e64a19;
+}
+
+.buttonAdd span {
+  margin-right: 10px;
+}
+
+.buttonAdd i {
+  background-color: white;
+  color: #ff5722;
+  border-radius: 50%;
+  padding: 3px 7px;
+  margin-left: 5px;
+}

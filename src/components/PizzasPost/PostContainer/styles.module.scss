@@ -1,0 +1,16 @@
+.postContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  gap: 30px;
+
+}
+
+.cartWrapper {
+  width: 17%;
+}

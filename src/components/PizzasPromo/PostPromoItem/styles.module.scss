@@ -1,0 +1,36 @@
+
+.post__promo__item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  width: 200px;
+}
+.img {
+  height: 120px;
+  width: 120px;
+}
+.price {
+  font-size: 28.8px;
+  color: #DA1315;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.price__discount {
+  font-size: 18px;
+  color: #272727;
+  text-decoration: line-through ;
+  text-decoration-thickness: 2px;
+
+}
+
+.nameOfPizza {
+  margin-bottom: 5px;
+}
+
+.size {
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+}

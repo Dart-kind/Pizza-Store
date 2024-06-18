@@ -1,0 +1,184 @@
+{
+  "posts": [
+
+    {
+      "id": 1,
+      "name": "Hawaiian Pizza",
+      "size": ["Double", "Group", "Gang", "XL Gang"],
+      "toppings": "Roasted Pork, Ham, Bell pepper, White Onion, Pineapple, Mozzarella & Tomato base",
+      "price": [240, 396, 555, 725],
+      "image": "img/p1.png",
+      "rating": 2
+    },
+    {
+      "id": 2,
+      "name": "Casa Alfredo",
+      "size": ["Double", "Group", "Gang", "XL Gang"],
+      "toppings": "White sauce pizza, Chicken toppings, Mushrooms, Roaster Garlic and Onions",
+      "price": [275, 425, 605, 785],
+      "image": "img/p2.png",
+      "rating": 8
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni",
+      "size": ["Double", "Group", "Gang", "XL Gang"],
+      "toppings": "Pepperoni, Mozzarella and Tomato base",
+      "price": [240, 396, 555, 725],
+      "image": "img/p3.png",
+      "rating": 10
+    },
+    {
+      "id": 4,
+      "name": "Neapolitan",
+      "size": ["Double", "Group", "Gang", "XL Gang"],
+      "toppings": "Tomato base, Mozzarella, Basil, Olive oil, Garlic, Salt and Pepper",
+      "price": [200, 330, 460, 600],
+      "image": "img/p4.png",
+      "rating": 4
+    },
+    {
+        "id": 5,
+        "name": "Casa Alfredo",
+        "size": ["Double", "Group", "Gang", "XL Gang"],
+        "toppings": "White sauce pizza, Chicken toppings, Mushrooms, Roaster Garlic and Onions",
+        "price": [275, 425, 605, 785],
+        "image": "img/p5.png",
+        "rating": 3
+        },
+        {
+        "id": 6,
+        "name": "Pepperoni",
+        "size": ["Double", "Group", "Gang", "XL Gang"],
+        "toppings": "Pepperoni, Mozzarella and Tomato base",
+        "price": [240, 396, 555, 725],
+        "image": "img/p6.png",
+          "rating": 5
+        },
+        {
+        "id": 7,
+        "name": "Neapolitan",
+        "size": ["Double", "Group", "Gang", "XL Gang"],
+        "toppings": "Tomato base, Mozzarella, Basil, Olive oil, Garlic, Salt and Pepper",
+        "price": [200, 330, 460, 600],
+        "image": "img/p7.png",
+          "rating": 1
+    }
+  ],
+
+
+  "promo": [
+    {
+      "id": 1,
+      "name": "Casa Alfredo",
+      "price": 700,
+      "discount": 750,
+      "image": "img/p5.png",
+       "size": "XL Gang"
+    },
+    {
+      "id": 2,
+      "name": "Hawaiian Pizza",
+      "price": 650,
+      "discount": 700,
+      "image": "img/p6.png",
+      "size": "XL Gang"
+    },
+    {
+      "id": 3,
+      "name": "Neapolitan",
+      "price": 500,
+      "discount": 550,
+      "image": "img/p7.png",
+      "size": "XL Gang"
+    }
+  ],
+
+
+
+  "branch": [
+    {
+      "id": 1,
+      "name": "Pizzaro Iloilo ",
+      "location": "Lorton Building, Jalandoni St, Iloilo City, 5000 Iloilo",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/pizzaroiloilo"
+    },
+    {
+      "id": 2,
+      "name": "Oton ",
+      "location": "Tim Hortons, 1970 Hwy 7, Concord, ON L4K 1W5",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/otonbranch"
+    },
+    {
+      "id": 3,
+      "name": "Miagao ",
+      "location": "Miagao Location Address",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/miagaobranch"
+    },
+    {
+      "id": 4,
+      "name": "Tigbauan ",
+      "location": "Tigbauan Location Address",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/tigbauanbranch"
+    },
+    {
+      "id": 5,
+      "name": "Barotac Viejo ",
+      "location": "Barotac Location Address",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/tigbauanbranch"
+    },
+    {
+      "id": 6,
+      "name": "Leganes ",
+      "location": "Leganes Location Address",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/tigbauanbranch"
+    },
+    {
+      "id": 7,
+      "name": "Pavia ",
+      "location": "Pavia Location Address",
+      "contact": {
+        "globe": "09532554225",
+        "smart": "09634874742"
+      },
+      "facebookPage": "https://www.facebook.com/tigbauanbranch"
+    }
+  ],
+
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
+
